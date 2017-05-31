@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/museumimage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/museum"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <CheckBox
+                android:id="@+id/museumcheck"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:text="Meseum"
+                android:onClick="onClicked"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <ImageView
+                android:id="@+id/universityimage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/university"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                 />
+
+            <CheckBox
+                android:id="@+id/universitycheck"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="University"
+                android:onClick="onClicked"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/libraryimage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/library"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <CheckBox
+                android:id="@+id/librarycheck"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="Library"
+                android:onClick="onClicked"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <ImageView
+                android:id="@+id/stadiumimage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/stadium"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <CheckBox
+                android:id="@+id/stadiumcheck"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="Stadium"
+                android:onClick="onClicked"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/parkimage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/park"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+            <CheckBox
+                android:id="@+id/parkcheck"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="Park"
+                android:onClick="onClicked"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <ImageView
+                android:id="@+id/embassymage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/embassy"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <CheckBox
+                android:id="@+id/embassycheck"
+                android:layout_width="100dp"
+                android:layout_height="45dp"
+                android:text="Embassy"
+                android:onClick="onClicked"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/cinemaimage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/cinema"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <CheckBox
+                android:id="@+id/cinemacheck"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="Cinema"
+                android:onClick="onClicked"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <ImageView
+                android:id="@+id/airportimage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/airport"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <CheckBox
+                android:id="@+id/airportcheck"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="Airport"
+                android:onClick="onClicked"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/zooimage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/zoo"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <CheckBox
+                android:id="@+id/zoocheck"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="Zoo"
+                android:onClick="onClicked"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <ImageView
+                android:id="@+id/churchimage"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@mipmap/church"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <CheckBox
+                android:id="@+id/churchcheck"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:text="Church"
+                android:onClick="onClicked"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginTop="2dp"
+                android:background="@mipmap/update"
+                android:text="Update"
+                android:textSize="8sp" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

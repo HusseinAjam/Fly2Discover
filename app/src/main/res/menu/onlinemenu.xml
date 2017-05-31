@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@mipmap/instagram"
+        android:id="@+id/instagram"
+        android:title="instagram"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:icon="@mipmap/wikipedia"
+        android:id="@+id/wikipedia"
+        android:title="wikipedia"
+        app:showAsAction="always">
+    </item>
+</menu>

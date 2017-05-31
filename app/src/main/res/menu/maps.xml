@@ -1,0 +1,92 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@mipmap/score"
+        android:id="@+id/score"
+        android:title="score"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:icon="@mipmap/search"
+        android:id="@+id/search"
+        android:title="places"
+        app:showAsAction="always">
+    </item>
+
+    <item
+        android:icon="@mipmap/places"
+        android:id="@+id/place"
+        android:title="places"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:icon="@mipmap/planeicon"
+        android:title="vision"
+        app:showAsAction="always">
+        <menu
+            android:id="@+id/theme">
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/i5"
+                android:icon="@mipmap/i5"
+                android:orderInCategory="1"
+                android:title="Discovery Plane" />
+
+            <item
+                android:id="@+id/i4"
+                android:icon="@mipmap/i4"
+                android:orderInCategory="2"
+                android:title="Long Plane" />
+            <item
+                android:id="@+id/i3"
+                android:icon="@mipmap/i3"
+                android:checked="true"
+                android:orderInCategory="3"
+                android:title="Space Vehicle " />
+            <item
+                android:id="@+id/i2"
+                android:icon="@mipmap/i2"
+                android:orderInCategory="4"
+                android:title="Red Wings" />
+            <item
+                android:id="@+id/i1"
+                android:icon="@mipmap/i1"
+                android:orderInCategory="5"
+                android:title="Air Ship" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:icon="@mipmap/mtype"
+        android:title="vision"
+        app:showAsAction="always">
+        <menu
+            android:id="@+id/mtype">
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/mapTypeNormal"
+                    android:title="Day Vision"
+                    android:icon="@mipmap/day"
+                    android:orderInCategory="1" />
+                <item
+                    android:id="@+id/mapTypeSatellite"
+                    android:title="@string/satellite"
+                    android:icon="@mipmap/satellite"
+                    android:orderInCategory="2"/>
+                <item
+                    android:id="@+id/mapTypeTerrain"
+                    android:title="@string/terrain"
+                    android:icon="@mipmap/terrain"
+                    android:orderInCategory="3"/>
+                <item
+                    android:id="@+id/mapTypeHybrid"
+                    android:title="@string/hybrid"
+                    android:icon="@mipmap/hybrid"
+                    android:orderInCategory="4"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hussein.fly2discover.MapsActivity">
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    map:uiRotateGestures="false"
+    map:uiTiltGestures="false"
+    map:uiScrollGestures="false"
+    map:uiZoomGestures="false" />
+
+<!-- here can be you view -->
+<FrameLayout
+    android:id="@+id/container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+<ImageView
+    android:id="@+id/plain"
+    android:layout_width="174dp"
+    android:layout_height="180dp"
+    android:rotation="90"
+    android:src="@mipmap/i3"
+    android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="76dp"
+        android:layout_height="64dp"
+        android:layout_gravity="right"
+         android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="218dp"
+        android:background="@mipmap/handler" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="266dp"
+         android:src="@mipmap/plus" />
+    <ImageView
+        android:id="@+id/minus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="67dp"
+        android:src="@mipmap/minus" />
+    <SeekBar
+        android:id="@+id/customSeekBar"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="80dp"
+        android:max="5"
+        android:progress="2"
+        android:thumb="@mipmap/knob"
+        android:progressDrawable="@drawable/custom_progress"/>
+
+</FrameLayout>
+
